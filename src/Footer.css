@@ -1,0 +1,194 @@
+@import '~antd/dist/antd.css';
+
+.care-page-footer {
+    background-color: #F9FAFB;
+    padding: 5px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .footer-container {
+    display: flex;
+    
+    margin-right: 16px;
+  
+  }
+.footer-align{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.foot-content-head {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.foot-content {
+    margin-top: 5px;
+    font-size: 12px;
+}
+.service-content {
+    text-align: initial;
+    font-size: 15px;
+}
+.read-more {
+    color: #8F39FF;
+    text-align: initial;
+    cursor: pointer;
+}
+.care-page-footer2 {
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+/* tab */
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap, .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-wrap {
+    position: relative;
+    left: 30rem;
+    display: inline-block;
+    display: flex;
+    flex: auto;
+    align-self: stretch;
+    overflow: hidden;
+    white-space: nowrap;
+    transform: translate(0);
+    font-weight: 600;
+}
+.flowchart-logo {
+    width: 52rem;
+}
+.home_footer_2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 17px;
+    justify-content: space-around;
+}
+.unified-logo {
+    width: 40rem;
+}
+.home_footer2_container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.home_footer2_list {
+    display: flex;
+    border: none;
+    background-color: transparent;
+}
+.claim_button {
+    border-radius: 18px;
+    background-color: #01B187;
+    border: none;
+    /* padding: 9px; */
+    padding: 8px 15px 8px 15px;
+    color: white;
+    font-weight: 600;
+}
+.readmore-container {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 2px;
+    max-width: 100rem;
+}
+.readone-head {
+    font-size: 27px;
+    color: white;
+    font-weight: bold;
+}
+.readone-content {
+    font-size: 16px;
+    color: white;
+}
+.readmore-tech {position: absolute;
+top: 53rem;
+text-align: center;
+right: 14rem;
+}
+.tech-head {
+    font-size: 33px;
+    font-weight: bold;
+
+}
+.tech-content {
+    font-size: 20px;
+
+}
+.tech-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60rem;
+}
+.tech-box {
+    background-color:#F9F9F9;
+    padding: 11px;
+    max-width: 16rem;
+
+}
+.tech-title {
+    display: flex;
+    align-items: center;
+}
+.tech-mainhead {
+    font-size: 11px;
+    font-weight: bold;
+}
+.tech-logo {
+    margin-right: 18px;
+    width: 43px;
+}
+.tech-card-detail{
+   
+    font-size: 10px;
+    margin-top: 15px;
+}
+@media only screen and (max-width: 961px) {
+    .footer-align{
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        flex-wrap: wrap;
+    }
+    /* tab */
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap, .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-wrap {
+    position: relative;
+    left: 0rem;
+    display: inline-block;
+    display: flex;
+    flex: auto;
+    align-self: stretch;
+    overflow: hidden;
+    white-space: nowrap;
+    transform: translate(0);
+    font-weight: 600;
+}
+.ant-tabs-tab {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 0;
+    font-size: 8px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.flowchart-logo {
+    width: 22rem;
+}
+.unified-logo {
+    width: 22rem;
+}
+
+}
