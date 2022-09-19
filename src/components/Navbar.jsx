@@ -1,8 +1,11 @@
 import React from "react";
 import care_commerce_logo from "../Logos/care_commerce_logo.svg"
+import {useNavigate, useLocation  } from "react-router-dom";
 
 
 function Navbar() {
+    const history = useNavigate();
+
     return (
         <div className="navbar-align">
              <div >
@@ -10,7 +13,7 @@ function Navbar() {
             src={care_commerce_logo}
               alt=""
               className="logo"
-            
+              onClick={() => history("/australia")}            
             />
           </div>
           <div style={{display:"flex",alignItems:"center"}}>
