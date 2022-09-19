@@ -8,7 +8,7 @@ function Navbar() {
              <div >
             <img
             src={care_commerce_logo}
-              alt="logo"
+              alt=""
               className="logo"
             
             />
