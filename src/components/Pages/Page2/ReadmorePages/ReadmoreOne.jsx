@@ -1,15 +1,15 @@
 import React from "react";
-import Navbar from "../../../Navbar";
+// import Navbar from "../../../Navbar";
 import readone from "../../../../Logos/footer_logo/readone.svg";
 import invoice from "../../../../Logos/footer_logo/invoice.svg"
 import "../../../../Footer.css";
-import tree from "../../../../Logos/footer_logo/tree.svg";
+// import tree from "../../../../Logos/footer_logo/tree.svg";
 
 function ReadmoreOne() {
   return (
     <>
       <div style={{marginTop:"57px"}}>
-        <img className="readmore-container" src={readone} />
+        <img className="readmore-container" src={readone} alt='' />
         <p  className="readone-head">Invoice the Business Process  <br/> Through Intelligent Automation.</p>
         <p  className="readone-content">
           Our AI technology can read and understand an invoice<br/> 

@@ -1,6 +1,8 @@
 import React from "react";
 import care_commerce_logo from "../Logos/care_commerce_logo.svg"
-import {useNavigate, useLocation  } from "react-router-dom";
+import {useNavigate, 
+    // useLocation 
+ } from "react-router-dom";
 
 
 function Navbar() {
