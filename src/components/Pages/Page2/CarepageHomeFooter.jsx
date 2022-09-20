@@ -3,7 +3,7 @@ import invoice from "../../../Logos/footer_logo/invoice.svg"
 import claims from "../../../Logos/footer_logo/claims.svg"
 import payment from "../../../Logos/footer_logo/payment.svg"
 import "../../../Footer.css"
-import {useNavigate, useLocation  } from "react-router-dom";
+import {useNavigate,  } from "react-router-dom";
 function CarepageHomeFooter() {
      const history = useNavigate();
     return (
