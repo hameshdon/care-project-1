@@ -4,7 +4,7 @@ import home_unified from "../../../Logos/footer_logo/home_unified.svg";
 import tick from "../../../Logos/footer_logo/tick.svg";
 import build_logo from "../../../Logos/footer_logo/build_logo.svg";
 import "../../../Footer.css";
-import {useNavigate, useLocation  } from "react-router-dom";
+// import {useNavigate, useLocation  } from "react-router-dom";
 
 function CarepageHomeFooterTwo() {
   return (

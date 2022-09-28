@@ -14,18 +14,19 @@ function CarePage() {
        <>
      
        <div className="care-content ">
+        <div>
         <h1 className="content-head ">Streamline the Business Process <br/>
         Through the Intelligent Automation.
         </h1>
         <p className="content">Leaveragin modern technologies to Capture and accelerate document processing timelines for claims management, settlement and resolution. </p>
-      
-        <div className="care-logo-container">
+        </div>
+       
             <img
              className="care-logo"
             src={care}
               alt="logo"  
         />
-          </div>
+         
       
        </div>
 
