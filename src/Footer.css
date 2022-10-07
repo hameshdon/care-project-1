@@ -97,7 +97,7 @@
     top: 0;
     z-index: -1;
     left: 2px;
-    max-width: 100rem;
+    max-width: 107rem;
 }
 .readone-head {
     font-size: 27px;
@@ -108,13 +108,40 @@
     font-size: 16px;
     color: white;
 }
-.readmore-tech {position: absolute;
-top: 53rem;
+.readmore-tech {
+    /* position: absolute; */
+/* top: 53rem; */
+margin-top: 27rem;
 text-align: center;
-right: 14rem;
+
+/* right: 14rem; */
+}
+.readmore-tech_2{
+    /* position: absolute;  */
+    /* top: 53rem; */
+    margin-top: 3rem;
+    /* text-align: center; */
+    background-color: "#F9FAFB";
+    /* right: 14rem; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.readmore-tech_3{
+    /* position: absolute; */
+/* top: 53rem; */
+margin-top: 3rem;
+text-align: center;
+
+/* right: 14rem; */
 }
 .tech-head {
     font-size: 33px;
+    font-weight: bold;
+
+}
+.tech-head__2 {
+    font-size: 20px;
     font-weight: bold;
 
 }
@@ -122,36 +149,100 @@ right: 14rem;
     font-size: 20px;
 
 }
+.tech-content3 {
+    font-size: 15px;
+
+}
 .tech-cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 60rem;
+    /* width: 60rem; */
+    text-align: center;
+}
+.tech-cards_3 {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 73rem;
+    text-align: center;
 }
 .tech-box {
-    background-color:#F9F9F9;
     padding: 11px;
-    max-width: 16rem;
+    max-width: 20rem
+
+}
+.tech-box_3 {
+    padding: 6px;
+    width: 20rem;
+   margin-bottom: 16px;
+    align-items: center;
+    justify-content: center;
+    height: 13rem;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+
+}
+.tech-box-large {
+    padding: 11px;
+    max-width: 20rem;
+    display: flex;
 
 }
 .tech-title {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+.tech-title2 {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .tech-mainhead {
-    font-size: 11px;
+    font-size: 15px;
     font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 13px
+}
+.tech-mainhead3 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 13px
 }
 .tech-logo {
     margin-right: 18px;
-    width: 43px;
+    width: 10rem;
+}
+.tech-logo3 {
+    /* margin-right: 18px; */
+    width: 4rem;
 }
 .tech-card-detail{
    
     font-size: 10px;
     margin-top: 15px;
 }
+.tech-card-detail3{
+   
+    font-size: 12px;
+    margin-top: 6px;
+}
+.mobileVisible {
+    display: none !important;
+  }
+  .mobileHidden {
+    display: block;
+  }
+  .read_flow_image {
+    margin-right: 7rem;
+    width: 39rem;
+  }
 @media only screen and (max-width: 961px) {
     .footer-align{
         display: flex;
@@ -197,4 +288,40 @@ right: 14rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+.readmore-container {
+   display: none;
+    max-width: 100rem;
+}
+.readone-head {
+    font-size: 19px;
+    color: black;
+    font-weight: bold;
+}
+.readone-content {
+    font-size: 14px;
+    color: black;
+}
+.read_flow_image {
+    margin-right: 1px;
+    width: 20rem;
+  }
+  .readmore-tech {
+    /* position: absolute; */
+/* top: 53rem; */
+margin-top: 3rem;
+text-align: center;
+
+/* right: 14rem; */
+}
+.tech-head {
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.tech-content {
+    font-size: 15px;
+    width: 21rem;
+
+}
+
 }
