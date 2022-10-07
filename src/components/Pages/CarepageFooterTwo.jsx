@@ -1,6 +1,8 @@
 import React from "react";
 import { Tabs } from 'antd';
 import flowchart from "../..//Logos/footer_logo/flowchart.svg"
+import flowchart2 from "../..//Logos/footer_logo/flowchart2.svg"
+import flowchart3 from "../..//Logos/footer_logo/flowchart3.svg"
 import "../../Footer.css";
 function CarepageFooterTwo() {
   return (
@@ -28,13 +30,25 @@ function CarepageFooterTwo() {
         />
     </Tabs.TabPane>
     <Tabs.TabPane tab="How its build" key="2">
-      Content of Tab Pane 2
+    <img
+             className="flowchart-logo"
+            src={flowchart2}
+              alt="logo"  
+        />
     </Tabs.TabPane>
     <Tabs.TabPane tab="How does it work" key="3">
-      Content of Tab Pane 3
+    <img
+             className="flowchart-logo"
+            src={flowchart3}
+              alt="logo"  
+        />
     </Tabs.TabPane>
     <Tabs.TabPane tab="Unique Proposition" key="4">
-      Content of Tab Pane 4
+    <img
+             className="flowchart-logo"
+            src={flowchart3}
+              alt="logo"  
+        />
     </Tabs.TabPane>
   </Tabs>
   </div>

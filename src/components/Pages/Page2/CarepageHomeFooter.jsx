@@ -68,7 +68,9 @@ function CarepageHomeFooter() {
                  Lower your costs, streamline settlements and <br/>reduce processing timelines while keeping<br/> customers engaged and well informed.
 
                  </p>
-                <div className="read-more">
+                <div className="read-more"
+                 onClick={() => history("/readmoretwo")}
+                >
                     Read more...
                 </div>
                  </div>
@@ -96,7 +98,9 @@ function CarepageHomeFooter() {
                  <p className="service-content">
                  Faster your payment processing and cycle times,<br/> Reduced your transaction Cost, eliminates the<br/> chance of duplicate payments and input errors.    
                 </p>
-                <div className="read-more">
+                <div className="read-more"
+                 onClick={() => history("/readmorethree")}
+                >
                     Read more...
                 </div>
                  </div>
