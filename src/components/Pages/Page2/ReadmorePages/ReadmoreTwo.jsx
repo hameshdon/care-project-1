@@ -6,6 +6,9 @@ import read_cont_1 from "../../../../Logos/ReadmoreImages/readContents/read_cont
 import read_cont_2 from "../../../../Logos/ReadmoreImages/readContents/read_cont_2.svg";
 import read_cont_3 from "../../../../Logos/ReadmoreImages/readContents/read_cont_3.svg";
 
+import read_cont_21 from "../../../../Logos/ReadmoreImages/readContents/read_cont_21.svg";
+import read_cont_22 from "../../../../Logos/ReadmoreImages/readContents/read_cont_22.svg";
+import read_cont_23 from "../../../../Logos/ReadmoreImages/readContents/read_cont_23.svg";
 // import read_large_cont_1 from "../../../../Logos/ReadmoreImages/readContents/read_large_cont_1.svg";
 // import read_large_cont_3 from "../../../../Logos/ReadmoreImages/readContents/read_large_cont_3.svg";
 import "../../../../Footer.css";
@@ -16,7 +19,10 @@ function ReadmoreTwo() {
   return (
     <>
       <img className="readmore-container" src={readone} alt="" />
-      <div style={{ display: "flex", marginTop: "6rem", flexWrap: "wrap" }}>
+      <div 
+       className="read_cards"
+    //   style={{ display: "flex", marginTop: "6rem", flexWrap: "wrap" }}
+      >
         <div>
           <img className="read_flow_image" src={readmore_flow} alt="" />
         </div>
@@ -52,7 +58,7 @@ function ReadmoreTwo() {
       </div>
       <div className="tech-cards">
         <div className="tech-box">
-          <img className="tech-logo" src={read_cont_1} alt="logo" />
+          <img className="tech-logo" src={read_cont_21} alt="logo" />
           <div className="tech-title">
             <p className="tech-mainhead">Dummy Title</p>
           </div>
@@ -68,7 +74,7 @@ function ReadmoreTwo() {
         </div>
 
         <div className="tech-box">
-          <img className="tech-logo" src={read_cont_2} alt="logo" />
+          <img className="tech-logo" src={read_cont_22} alt="logo" />
           <div className="tech-title">
             <p className="tech-mainhead">Dummy Title</p>
           </div>
@@ -84,7 +90,7 @@ function ReadmoreTwo() {
         </div>
 
         <div className="tech-box">
-          <img className="tech-logo" src={read_cont_3} alt="logo" />
+          <img className="tech-logo" src={read_cont_23} alt="logo" />
           <div className="tech-title">
             <p className="tech-mainhead">Dummy Title</p>
           </div>
@@ -111,7 +117,7 @@ function ReadmoreTwo() {
       </div>
       <div className="tech-cards">
         <div className="tech-box">
-          <img className="tech-logo" src={read_cont_1} alt="logo" />
+          <img className="tech-logo" src={read_cont_21} alt="logo" />
           <div className="tech-title">
             <p className="tech-mainhead">Dummy Title</p>
           </div>

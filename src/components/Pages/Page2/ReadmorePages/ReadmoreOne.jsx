@@ -6,6 +6,9 @@ import readone from "../../../../Logos/footer_logo/readone.svg";
 import read_cont_1 from "../../../../Logos/ReadmoreImages/readContents/read_cont_1.svg"
 import read_cont_2 from "../../../../Logos/ReadmoreImages/readContents/read_cont_2.svg"
 import read_cont_3 from "../../../../Logos/ReadmoreImages/readContents/read_cont_3.svg"
+import read_cont_4 from "../../../../Logos/ReadmoreImages/readContents/read_cont_4.svg"
+import read_cont_5 from "../../../../Logos/ReadmoreImages/readContents/read_cont_5.svg"
+import read_cont_6 from "../../../../Logos/ReadmoreImages/readContents/read_cont_6.svg"
 
 import read_large_cont_1 from "../../../../Logos/ReadmoreImages/readContents/read_large_cont_1.svg"
 import read_large_cont_3 from "../../../../Logos/ReadmoreImages/readContents/read_large_cont_3.svg"
@@ -18,7 +21,10 @@ function ReadmoreOne() {
   return (
     <>
       <img className="readmore-container" src={readone} alt="" />
-      <div style={{ display: "flex", marginTop: "6rem", flexWrap: "wrap" }}>
+      <div 
+      className="read_cards"
+      //  style={{ display: "flex", marginTop: "6rem", flexWrap: "wrap" }}
+       >
         <div>
           <img className="read_flow_image" src={readmore_flow} alt="" />
         </div>
@@ -210,7 +216,7 @@ function ReadmoreOne() {
       </div>
       <div className="tech-cards">
         <div className="tech-box">
-          <img className="tech-logo" src={read_cont_1} alt="logo" />
+          <img className="tech-logo" src={read_cont_4} alt="logo" />
           <div className="tech-title">
             <p className="tech-mainhead">Dummy Title</p>
           </div>
@@ -226,7 +232,7 @@ function ReadmoreOne() {
         </div>
 
         <div className="tech-box">
-          <img className="tech-logo" src={read_cont_2} alt="logo" />
+          <img className="tech-logo" src={read_cont_5} alt="logo" />
           <div className="tech-title">
             <p className="tech-mainhead">Dummy Title</p>
           </div>
@@ -242,7 +248,7 @@ function ReadmoreOne() {
         </div>
 
         <div className="tech-box">
-          <img className="tech-logo" src={read_cont_3} alt="logo" />
+          <img className="tech-logo" src={read_cont_6} alt="logo" />
           <div className="tech-title">
             <p className="tech-mainhead">Dummy Title</p>
           </div>

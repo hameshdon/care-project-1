@@ -16,7 +16,10 @@ function ReadmoreThree() {
   return (
     <>
       <img className="readmore-container" src={readone} alt="" />
-      <div style={{ display: "flex", marginTop: "6rem", flexWrap: "wrap" }}>
+      <div 
+       className="read_cards"
+      // style={{ display: "flex", marginTop: "6rem", flexWrap: "wrap" }}
+      >
         <div>
           <img className="read_flow_image" src={readmore_flow} alt="" />
         </div>
