@@ -3,13 +3,16 @@ import care_commerce_logo from "../Logos/care_commerce_logo.svg"
 import {useNavigate, 
     // useLocation 
  } from "react-router-dom";
-
+import { isMobileDevice } from "./IsMobile";
+// import { isMobileDevice } from "../../../IsMobile";
 
 function Navbar() {
     const history = useNavigate();
 
     return (
-        <div className="navbar-align">
+       <>
+   
+       <div className="navbar-align">
              <div >
             <img
             src={care_commerce_logo}
@@ -18,7 +21,8 @@ function Navbar() {
               onClick={() => history("/australia")}            
             />
           </div>
-          <div style={{display:"flex",alignItems:"center"}}>
+       
+          <div style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
             <div className="nav-menu-align">
                 Services
             </div>
@@ -37,6 +41,7 @@ function Navbar() {
             <div className="nav-menu-align">
                 Contact
             </div>
+          
             <button className="nav-menu-align nav-book">
                 Book Free Consultation
             </button >
@@ -45,6 +50,10 @@ function Navbar() {
           </div>
 
         </div>
+       
+     
+
+           </>
     )
 }
 export default Navbar;

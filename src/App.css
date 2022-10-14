@@ -1,6 +1,6 @@
 .care {
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
 
 }
 
@@ -8,14 +8,21 @@
 .layout {
   display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
 }
 .navbar-align {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  background-color: transparent;
+  justify-content: space-around;
+  background-color: white;
+  z-index: 15;
+  padding: 11px;
+  position: fixed;
+  top: 0;
+  box-shadow: 4px 9px 5px -3px whitesmoke;
+  width: 100%;
+
 
   
 
@@ -48,6 +55,8 @@ padding: 9px;
 /* margin-bottom: 17rem; */
 display: flex;
 flex-wrap: wrap;
+justify-content: center;
+margin-top: 11rem;
 }
 .content-head {
   font-size: 40px;
@@ -112,7 +121,18 @@ flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    padding: 11px;
+    z-index: 63;
+    margin-bottom: 17rem;
+    box-shadow: 4px 9px 5px -3px whitesmoke;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: transparent;
+    padding: 11px;
+    box-shadow: 4px 9px 5px -3px whitesmoke; */
   
     
   
@@ -147,6 +167,7 @@ flex-wrap: wrap;
     /* margin-bottom: 17rem; */
     display: flex;
     flex-wrap: wrap;
+    margin-top: 11rem;
     }
     .content-head {
       font-size: 19px;

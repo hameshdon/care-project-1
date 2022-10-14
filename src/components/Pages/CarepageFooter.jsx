@@ -13,7 +13,7 @@ function CarePageFooter() {
             Empowering the Aged Care Industry</p>
 
         <div className="footer-align">
-         <div>
+                 <div className="footer-center-align">
             <div style={{display:"flex"}}>
                   <div className="footer-container"> 
         <img
@@ -40,7 +40,7 @@ function CarePageFooter() {
                  </div>
 
 
-                 <div>
+                 <div className="footer-center-align">
             <div style={{display:"flex"}}>
                   <div className="footer-container"> 
         <img
@@ -69,7 +69,7 @@ function CarePageFooter() {
                 </div>
                  </div>
 
-                 <div>
+                 <div className="footer-center-align">
             <div style={{display:"flex"}}>
                   <div className="footer-container"> 
         <img

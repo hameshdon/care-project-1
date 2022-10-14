@@ -13,7 +13,7 @@ function CarePage() {
     return (
        <>
      
-       <div className="care-content ">
+       <div className="care-content">
         <div>
         <h1 className="content-head ">Streamline the Business Process <br/>
         Through the Intelligent Automation.
