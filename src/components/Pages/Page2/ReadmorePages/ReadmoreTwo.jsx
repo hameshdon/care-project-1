@@ -2,7 +2,7 @@ import React from "react";
 // import Navbar from "../../../Navbar";
 import readone from "../../../../Logos/footer_logo/readone.svg";
 // import invoice from "../../../../Logos/footer_logo/invoice.svg";
-import read_cont_1 from "../../../../Logos/ReadmoreImages/readContents/read_cont_1.svg";
+// import read_cont_1 from "../../../../Logos/ReadmoreImages/readContents/read_cont_1.svg";
 import read_cont_2 from "../../../../Logos/ReadmoreImages/readContents/read_cont_2.svg";
 import read_cont_3 from "../../../../Logos/ReadmoreImages/readContents/read_cont_3.svg";
 

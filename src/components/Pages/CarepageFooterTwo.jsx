@@ -1,6 +1,6 @@
 import React from "react";
 import { Tabs } from 'antd';
-import flowchart from "../..//Logos/footer_logo/flowchart.svg"
+// import flowchart from "../..//Logos/footer_logo/flowchart.svg"
 import buyer_exp from "../..//Logos/footer_logo/buyer_exp.svg"
 import flowchart3 from "../..//Logos/footer_logo/flowchart3.svg"
 import unified_1 from "../..//Logos/footer_logo/unified_1.svg"

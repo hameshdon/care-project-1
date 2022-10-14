@@ -1,8 +1,8 @@
 import React from "react";
 import { Tabs } from "antd";
 import journeyline from "../../../Logos/footer_logo/journeyline.svg";
-import tick from "../../../Logos/footer_logo/tick.svg";
-import build_logo from "../../../Logos/footer_logo/build_logo.svg";
+// import tick from "../../../Logos/footer_logo/tick.svg";
+// import build_logo from "../../../Logos/footer_logo/build_logo.svg";
 import features from "../../../Logos/footer_logo/features.svg";
 import provider from "../../../Logos/footer_logo/provider.svg";
 import supplier from "../../../Logos/footer_logo/supplier.svg";

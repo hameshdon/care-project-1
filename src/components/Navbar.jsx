@@ -3,7 +3,7 @@ import care_commerce_logo from "../Logos/care_commerce_logo.svg"
 import {useNavigate, 
     // useLocation 
  } from "react-router-dom";
-import { isMobileDevice } from "./IsMobile";
+
 // import { isMobileDevice } from "../../../IsMobile";
 
 function Navbar() {

@@ -7,7 +7,7 @@ import CarePage from "./components/Pages/CarePage"
 import CarePageHome from './components/Pages/Page2/CarePageHome';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ReadmoreOne from './components/Pages/Page2/ReadmorePages/ReadmoreOne';
-import Layout from './Layout';
+// import Layout from './Layout';
 import ReadmoreTwo from './components/Pages/Page2/ReadmorePages/ReadmoreTwo';
 import BuyerExp from './components/Pages/IndiaextraPages/BuyerExp';
 import Payment from './components/Pages/IndiaextraPages/Payment';

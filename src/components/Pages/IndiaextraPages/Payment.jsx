@@ -1,14 +1,14 @@
 import React from "react";
 // import Navbar from "../../../Navbar";
-import readone from "../../../Logos/footer_logo/readone.svg";
+// import readone from "../../../Logos/footer_logo/readone.svg";
 // eslint-disable-next-line
 // import invoice from "../../../../Logos/footer_logo/invoice.svg"
 import read_cont_1 from "../../../Logos/ReadmoreImages/readContents/read_cont_1.svg"
-import read_cont_2 from "../../../Logos/ReadmoreImages/readContents/read_cont_2.svg"
-import read_cont_3 from "../../../Logos/ReadmoreImages/readContents/read_cont_3.svg"
-import read_cont_4 from "../../../Logos/ReadmoreImages/readContents/read_cont_4.svg"
-import read_cont_5 from "../../../Logos/ReadmoreImages/readContents/read_cont_5.svg"
-import read_cont_6 from "../../../Logos/ReadmoreImages/readContents/read_cont_6.svg"
+// import read_cont_2 from "../../../Logos/ReadmoreImages/readContents/read_cont_2.svg"
+// import read_cont_3 from "../../../Logos/ReadmoreImages/readContents/read_cont_3.svg"
+// import read_cont_4 from "../../../Logos/ReadmoreImages/readContents/read_cont_4.svg"
+// import read_cont_5 from "../../../Logos/ReadmoreImages/readContents/read_cont_5.svg"
+// import read_cont_6 from "../../../Logos/ReadmoreImages/readContents/read_cont_6.svg"
 
 import read_large_cont_1 from "../../../Logos/ReadmoreImages/readContents/read_large_cont_1.svg"
 import read_large_cont_3 from "../../../Logos/ReadmoreImages/readContents/read_large_cont_3.svg"

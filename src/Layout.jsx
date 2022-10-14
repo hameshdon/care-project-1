@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
 import CarePage from "./components/Pages/CarePage";
 import BuyerExp from "./components/Pages/IndiaextraPages/BuyerExp";
 import Payment from "./components/Pages/IndiaextraPages/Payment";
@@ -12,7 +11,7 @@ function Layout() {
     return (
         <div className=''>
         <Router forceRefresh={true}>
-        {/* <Navbar/>   */}
+       
         <Routes>
          <Route path='/' element={<CarePage/>}/>
        
