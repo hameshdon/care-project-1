@@ -24,6 +24,7 @@
     justify-content: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    margin-left: 102px;
 }
 .footer-center-align {
     margin-right: 87px;
@@ -53,13 +54,20 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
-
+ .readmore_align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ }
 /* tab */
 .ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap, .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-wrap {
-    position: relative;
-    left: 25rem;
-    display: inline-block;
+    /* position: relative; */
+    /* left: 25rem; */
+    /* display: inline-block; */
     display: flex;
+    justify-content: center;
     flex: auto;
     align-self: stretch;
     overflow: hidden;
@@ -75,7 +83,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     padding: 17px;
-    justify-content: space-around;
+    justify-content: center;
 }
 .unified-logo {
     width: 40rem;
@@ -135,6 +143,18 @@ text-align: center;
     display: flex;
     flex-direction: column;
 }
+.readmore-tech_2_bg{
+    /* position: absolute;  */
+    /* top: 53rem; */
+    margin-top: 3rem;
+    /* text-align: center; */
+    /* background-color: "#F9FAFB"; */
+    /* right: 14rem; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAFB;
+}
 .readmore-tech_3{
     /* position: absolute; */
 /* top: 53rem; */
@@ -165,7 +185,7 @@ text-align: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     /* width: 60rem; */
     text-align: center;
 }
@@ -212,6 +232,7 @@ text-align: center;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 .tech-mainhead {
     font-size: 15px;
@@ -261,9 +282,10 @@ text-align: center;
 @media only screen and (max-width: 961px) {
     .read_cards {
         display: flex;
-        margin-top: 6rem;
+        margin-top: 13rem;
         flex-wrap: wrap;
-        margin-left: 0rem;
+        margin-left: 16px;
+        justify-content: center;
     }
     .footer-align{
         display: flex;
@@ -271,6 +293,7 @@ text-align: center;
         margin-top: 3rem;
         margin-bottom: 3rem;
         flex-wrap: wrap;
+        margin-left: 0px;
     }
     .footer-center-align {
         margin-right: 0px;
@@ -311,6 +334,7 @@ text-align: center;
     flex-direction: column;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    margin-left: 101px;
 }
 .readmore-container {
    display: none;
@@ -351,7 +375,7 @@ text-align: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     /* width: 60rem; */
     text-align: center;
     margin-left: 20px;

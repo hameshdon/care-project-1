@@ -17,12 +17,11 @@
   justify-content: space-around;
   background-color: white;
   z-index: 15;
-  padding: 11px;
+  padding: -6px;
   position: fixed;
   top: 0;
-  box-shadow: 4px 9px 5px -3px whitesmoke;
+  box-shadow: 5px 16px 11px -12px whitesmoke;
   width: 100%;
-
 
   
 
